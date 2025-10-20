@@ -1,5 +1,3 @@
-[![StyleCI](https://styleci.io/repos/55775729/shield?branch=master)](https://styleci.io/repos/55775729)
-
 Install the cms with composer
 ```json
  composer require "admin/builder"
@@ -17,7 +15,7 @@ Generate a password for admin
 
 Yoo can publish vendor
 ```json   
-   php artisan vendor:publish --tag=public --force --provider="Vis\Builder\BuilderServiceProvider"
+   php artisan vendor:publish --tag=public --force --provider="Admin\Builder\BuilderServiceProvider"
 ```
 
 
