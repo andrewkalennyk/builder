@@ -1,0 +1,25 @@
+{
+    "name": "admin/builder",
+    "description": "Builder cms",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "admin",
+            "email": "andrewkalennyk@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Builder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Builder\\BuilderServiceProvider"
+            ]
+        }
+    }
+}
